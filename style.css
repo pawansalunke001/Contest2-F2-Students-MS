@@ -1,0 +1,56 @@
+/* Body CSS */
+*{
+    /* margin: 5px !important; */
+    padding: 5px;
+    background-color: black !important;
+    color: white !important;  
+}
+/* End of Bod CSS */
+
+
+/* Input Form CSS */
+.inputField{
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.tableHeight{
+    height: 512px !important;
+}
+
+#submit-button{
+    background-color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    color: #000000 !important;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 5px;
+}
+
+/* End of Input Form CSS */
+
+
+/* Table CSS */
+.table-bordered>tbody>tr.entry{
+    border-bottom: none !important;
+    border-top: none !important;
+    border-width: 0;
+}
+.tRowHeight{
+    height: 500px !important;
+    border-top: none;
+    border-top-width: 0 !important;
+    border-bottom: 1px solid #FFFFFF !important;
+}
+/* show edit and delete icons at the end of table cell */
+.edit{
+    float: right!important;
+}
+.tRowsBorder{
+    height: 512px !important;
+}
+table thead{
+    border-width: 1px 0;
+}
+/* End of Table CSS */
